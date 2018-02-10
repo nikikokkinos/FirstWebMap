@@ -13,7 +13,6 @@
   left: 56px;
   background: rgba(112, 91, 102, 0.6);
   padding: 20px;
-  border-radius: 7px;
 }
 
 button {
@@ -22,4 +21,37 @@ button {
   background-color: rgba(76, 178, 127, 0.6);
   border-radius: 8px;
   font-size: 15px;
+}
+
+#legend {
+  float: right;
+  background: #black;
+  padding: 12px;
+  margin-left: 15px;
+}
+
+.legendItem {
+}
+
+.legendItem::before {
+  content: '';
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  -moz-border-radius: 7.5px;
+  -webkit-border-radius: 7.5px;
+  border-radius: 16.5px;
+  border: 2px solid #FFF
+  position: relative;
+  top: 4px;
+  margin-right: 5px;
+}
+
+
+.Commercial::before {
+  background-color: red;
+}
+
+.Mixed-Use::before {
+  background-color: orange;
 }
