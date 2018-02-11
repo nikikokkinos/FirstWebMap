@@ -13,25 +13,32 @@
   left: 56px;
   background: rgba(112, 91, 102, 0.6);
   padding: 20px;
+  border-radius: 5px;
 }
 
 button {
   outline: none;
   padding: 8px;
-  background-color: rgba(76, 178, 127, 0.6);
+  background-color: teal;
+  color: white;
   border-radius: 8px;
   font-size: 15px;
 }
 
 #legend {
   float: right;
-  background: #black;
+  background: black;
+  color: white;
   padding: 12px;
   margin-left: 15px;
+  z-index: 2000;
+  border-radius: 5px;
+  opacity: .5;
 }
 
 .legendItem {
 }
+
 
 .legendItem::before {
   content: '';
