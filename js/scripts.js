@@ -171,15 +171,6 @@ var buildingdata = [
   },
 ]
 
-// Chris' code
-
-// how to add a single marker using L.marker()
-// var chrisPizza = pizzaData[0];
-//
-// L.marker([chrisPizza.lat, chrisPizza.lon]).addTo(map)
-//     .bindPopup(chrisPizza.name + ' likes to eat at ' +  chrisPizza.pizzaShop);
-
-
 // create an empty markers array that we can fill with markers
 var markersArray = [];
 
